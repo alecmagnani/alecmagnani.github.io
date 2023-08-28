@@ -1,5 +1,6 @@
 ---
-icon: fas fa-info-circle
+title: CV
+icon: fas fa-file
 order: 3
 ---
 ### Resume
