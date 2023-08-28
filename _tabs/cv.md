@@ -1,7 +1,7 @@
 ---
 title: CV
 icon: fas fa-file
-order: 3
+order: 4
 ---
 ### Resume
 Resume goes here
