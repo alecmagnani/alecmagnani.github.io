@@ -3,12 +3,13 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "minzoom": 20
+      },
       "geometry": {
         "coordinates": [
           -79.97908963291334,
           40.44523370007229,
-          1000
         ],
         "type": "Point"
       }
