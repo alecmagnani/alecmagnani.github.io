@@ -17,4 +17,4 @@ Miscellaneous coding scripts and experiments, e.g. visualization, music generati
 
 # [alecmagnani.github.io](https://github.com/alecmagnani/alecmagnani.github.io)
 
-Repository containing the source code for this site.
+Repository containing the source code for this site. Read [the post](../posts/tech-stack) for more info.
