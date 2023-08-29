@@ -1,7 +1,14 @@
 # About
 
 Personal site hosted on github pages -- see [https://alecmagnani.github.io](alecmagnani.github.io)
-# Acknowledgements
+# To Do
+
+* Fix favicon
+* Attach resume
+* 'About me' content
+* Real picture for avatar
+
+# Used here
 
 ## Github Pages / Jekyll
 
