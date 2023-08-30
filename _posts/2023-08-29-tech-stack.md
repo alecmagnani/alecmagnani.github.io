@@ -2,8 +2,8 @@
 layout: post
 title: Tech Stack (What is this?)
 date: 2023-08-29 23:03 +0000
-categories: [Blog, Technical]
-tags: [git, jekyll, blog, tech]
+categories: [Blog, Projects]
+tags: [git, jekyll, markdown, blog, technical, project]
 author: alecmagnani
 ---
 This site was created using a static site generator, and is hosted on Github Pages.
