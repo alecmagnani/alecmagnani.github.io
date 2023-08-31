@@ -19,7 +19,7 @@ Any program that's performing any real function is going to need to store and or
 
 ### 2. They'll get you a job
 
-Like it or not, coding interviews tend to lean problems focused on solving abstract data structure and algorithms problems. Just see the popularity of such resources as [leetcode](leetcode.com) or ['Cracking the Coding Interview'](https://www.crackingthecodinginterview.com).
+Like it or not, coding interviews tend to lean problems focused on solving abstract data structure and algorithms problems. Just see the popularity of such resources as [leetcode](https://leetcode.com) or ['Cracking the Coding Interview'](https://www.crackingthecodinginterview.com).
 
 ### 3. They can be fascinating
 
