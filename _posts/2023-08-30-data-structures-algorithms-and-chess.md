@@ -7,6 +7,8 @@ categories: [Blog, Technical]
 tags: [data structures, algorithms, chess, visualization]
 ---
 
+## Data Structures and Algorithms
+
 Two of the most import concepts in computer science for a few reasons:
 
 1. They're everywhere
@@ -27,21 +29,21 @@ Like code and chess, algorithms are all about logic. When you come to understand
 
 Algorithms (especially sorting and searching) lend themselves to interesting visualization too, a topic I've always found interesting. The differences between algorithms appear in the unique character of each visualization.
 
-# Chess
+## Chess
 
 Where does chess come in? With the great "Covid-and-Queen's-Gambit Chess Boom of 2020" of course! Like many others I became interested in the beautifully simple but dizzyingly complex game. For me, chess puzzles pulled me in, appealing to my brain in the same way that coding and logic puzzles have for years. Instead of Instagram or Twitter, Chess.com became the go-to app on my phone when I had some time to kill.
 
-## Possible games, possible worlds
+### Possible games, possible worlds
 
 The idea of "opening theory" in chess is intimidating. From the first move of the game, there are dozens of possible moves in each position, leading to nearly infinite possibilities. In fact, a *conservative estimate* of the number of possible chess games is `10^120`. If the search is limited to "sensible moves" (excluding moves that are immediately game-losing), we still have `10^40` possible games to consider.
 
 These calculations were shown in order to demonstrate the impossibility of solving chess by brute force. Fortunately, over the years, great chess minds have further limited the scope by identifying common sequences of best moves, a field of study called opening theory.
 
-## Theory
+### Theory
 
 Over the years, chess enthusiasts have identified and named some of the best ways to begin a game of chess. There are of course still many, many possible routes a game can take. There exist thousands of opening books, ranging in scope from broadly covering a first move (e.g. King's Pawn openings, which begin after `1. e4`), to covering possible continuations from a position 10 moves in (e.g. the Sicilian, Accelerated Dragon variation).
 
-### On notation
+#### On notation
 
 SAN: "Standard Algebraic Notation"
  : System of recording chess moves by indicating the move number, piece, and its position.
@@ -61,7 +63,7 @@ For example, the aforementioned "Accelerated Dragon" opening would be written as
 
 Where the capital letter indicates which piece has moved (K for King, Q for Queen, R for Rook, B for Bishop, N for Knight, and nothing for a pawn), an `x` indicates a capture, and the coordinate of the square to which the piece has moved.
 
-## Studies
+### Studies
 
 That works well for describing the moves that occurred game, but what if we want to consider alternative routes the game could have gone? What if we want to make a plan, and prepare for all the reasonable moves our opponent could make? That's where we return to analysis and opening theory.
 
@@ -84,7 +86,7 @@ The "main line" we analyzed here continued with `5. Nc3`, but that's not the onl
 5. Nc3 (5. Nxc6 bxc6) Bg7
 ```
 
-# Let's put it all together
+## Let's put it all together
 
 What would that look like if we graphed it?
 
@@ -160,6 +162,6 @@ Now we can use this to guide our study -- for example, from the perspective of t
 
 As the Black pieces we learn we should prioritize studying the continuations after `5. Nc3` over those after `5. Nxc6`, because it is much more likely to occur in a game.
 
-# What's next?
+## What's next?
 
 See [projects `chess-tree-graph` and `chess-study-viewer`](../../projects) for some experimentation with these ideas.
